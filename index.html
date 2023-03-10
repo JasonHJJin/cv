@@ -2,47 +2,72 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Jason's Personal Site</title>
+  <title>Jason Jin</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico?v=2">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td>
-        <img src="images/Jason.png" alt="Jason Profile Picture" width="200" height="200">
-      </td>
-      <td>
-        <h1>Jason Jin</h1>
-        <p><em>Student at Columbia University in the City of New York</em></p>
-        <p>Currently a senior studying computer engineering looking for an internship opportunity for summer 2023</p>
-        <p>More work can be found in my GitHub <a href="https://github.com/JasonHJJin">repo</a></p>
-      </td>
-    </tr>
-  </table> 
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Columbia University in the City of New York</li>
-    <li>Franklin & Marshall College</li>
-  </ul>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="20">
-    <tr>
-      <td>Python</td>
-      <td>★★★★★</td>
-      <td>C/C++</td>
-      <td>★★★★☆</td>
-    </tr>
-    <tr>
-      <td>Java</td>
-      <td>★★★☆☆</td>
-      <td>MySQL</td>
-      <td>★★★★★</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="/contact-me.html">Contact me</a>
+  <!--TOP CONTAINER-->
+  <div class="top-container">
+    <img class='topcloud' src="images/topcloud.gif" alt="top cloud">
+    <div class="title-text">
+      <h1><em>I'm Jason.</em></h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+    </div>
+    <img class='bottomcloud' src="images/bottomcloud.gif" alt="bottom cloud">
+    <img class='development' src="images/development.gif" alt="development">
+  </div>
+
+  <!--MIDDLE CONTAINER-->
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile_picture" src="images/Jason.png" alt="Jason">
+      <h2 class="hello">Hello.</h2>
+      <p>I'm a senior studying computer engineering at <a onclick="" href="https://www.google.com/search?q=columbia+university&oq=columbia+university&aqs=chrome.0.0i271j46i131i433i512j0i131i433i512l3j69i60l2j5.4027j0j7&sourceid=chrome&ie=UTF-8">Columbia University in the City of New York.</a></p>
+      <br>
+      <p>❗️Currently seeking for an internship opportunity for this coming Summer 2023❗️</p>
+    </div>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skills-photos">
+        <img class="github" src="images/github.gif" alt="github">
+        <img class="ai" src="images/ai.gif" alt="artificial intelligence">
+        <img class="coding_" src="images/coding.jpg" alt="Programming">
+        <img class="ml" src="images/ml.gif" alt="machine learning">
+        <img class='mobile' src="images/mobile.gif" alt="mobile">
+      </div>
+      <div class="skill-row">
+        <h3 class="skill-names">Python Development</h3>
+        <img class="python" src="images/python.gif" alt="python">
+        <p>As a Python developer, I have gained valuable experience in data processing and visualization, working with libraries like NumPy, Pandas, and Matplotlib. I strive to write clean, efficient, and scalable code, following the best practices of software development. Additionally, I have some experience in competitive programming and participate in Codeforces contests to continuously improve my skills. I am also familiar with cloud computing platforms like AWS and their deployment of scalable applications.</p>
+      </div>
+      <div class="skill-row">  
+        <h3 class="skill-names">Data Science & Machine Learning</h3>
+        <img class="datasci" src="images/datasci.gif" alt="Data Science">
+        <p>With a focus on Python development, data analytics, and software engineering, I have developed skills in data science and machine learning. I am proficient in using Python APIs to access, clean, and analyze data, and have implemented machine learning algorithms using libraries such as NumPy, Pandas, scikit-learn, TensorFlow, and PyTorch. My experience includes developing algorithms for financial data analysis and decision-making and exploring cloud technologies for scalable solutions to complex problems. I have some experience in transferring and migrating data between various databases, including MySQL, MongoDB, and Neo4j. My education at Columbia University provided me with a strong foundation in data science, enabling me to develop innovative solutions using programming languages like Python.</p>
+      </div>
+    </div>
+    
+    <div class="contact-me">
+      <h2 class="getintouch">Get In Touch</h2>
+      <h3>Let's discuss how I can contribute to your organization!</h3>
+      <p class="lastsentence">Contact me through the methods below if my website's skillsets match your position requirements.</p>
+    </div>
+  </div>
+
+  <div class="space1"></div>
+
+  <!--BOTTOM CONTAINER-->
+  <div class="bottom-container">
+    <a class="footer-link" href="mailto:hj2602@columbia.edu">Email me!</a>
+    <a class="footer-link" href="https://www.linkedin.com/in/jinjasonhj">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/jasonhjjin">GitHub</a>
+    <p class="lastsentence">© Jason Jin.</p>
+  </div>
+
+  <div class="space1"></div>
+
 </body>
 
 </html>

@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #5e6969;
+    font-size: 5.625rem;
+    margin: 150px auto 0 auto;
+    line-height: 2;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #5e6969;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-text{
+    line-height: 2;
+    margin:0;
+}
+
+.top-container{
+    background-color: #f7f6ed;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 175px;
+    margin: 0;
+}
+
+.middle-container{
+    position: relative;
+    background-color: #f7f6ed;
+}
+
+.bottom-container{
+    background-color: #f7f6ed;
+}
+
+.skills{
+    padding-bottom: 100px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile_picture{
+    width: 19%;
+    padding-bottom: 100px;
+}
+
+.hello{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.development{
+    margin-top: 300px;
+    width: 350px;
+    height: 350px;
+    position:relative;
+    bottom:0px;
+    margin-bottom: 0;
+}
+
+.topcloud{
+    position:absolute;
+    right: 450px;
+    top: 50px;
+    width:10%;
+    
+}
+
+.skills{
+    margin-top:100px;
+    padding-top:50px;
+}
+
+.bottomcloud{
+    position:absolute;
+    left:330px;
+    top:600px;
+    width: 300px;
+    height: 200px;
+    
+}
+
+p{
+    line-height: 2;
+}
+
+.skills-photos{
+    margin-top:200px;
+    margin-bottom:200px;
+    display: inline-block;
+    text-align: center;
+}
+
+.ai{
+    width:175px;
+}
+.github{
+    width:10%;
+}
+.mobile{
+    width:10%;
+}
+
+.coding_{
+    width:30%;
+}
+
+.ml{
+    width:175px;
+}
+
+.python{
+    width:25%;
+    float: left;
+    margin-right:30px;
+    margin-bottom:30px;
+}
+.datasci{
+    width:200px;
+    height:200px;
+    float: right;
+    margin-left:10px;
+    margin-top:0;
+}
+
+.getintouch{
+    margin-bottom:100px;
+}
+
+.skill-names{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.lastsentence{
+    margin:0;
+}
+
+.space1{
+    background-color: #f7f6ed;
+    height:100px;
+};
