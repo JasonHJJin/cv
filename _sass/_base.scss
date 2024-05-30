@@ -21,7 +21,12 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
@@ -53,7 +58,8 @@ h6 {
   font-size: $type-size-6;
 }
 
-small, .small {
+small,
+.small {
   font-size: $type-size-6;
 }
 
@@ -65,6 +71,7 @@ u,
 ins {
   text-decoration: none;
   border-bottom: 1px solid $text-color;
+
   a {
     color: inherit;
   }
@@ -76,7 +83,15 @@ del a {
 
 /* reduce orphans and widows when printing */
 
-p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
+p,
+pre,
+blockquote,
+ul,
+ol,
+dl,
+figure,
+table,
+fieldset {
   orphans: 3;
   widows: 3;
 }
@@ -124,19 +139,24 @@ a {
 
 /* code */
 
-tt, code, kbd, samp, pre {
+tt,
+code,
+kbd,
+samp,
+pre {
   font-family: $monospace;
 }
 
 pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
+  overflow-x: auto;
+  /* add scrollbars to wide code blocks*/
 }
 
-p > code,
-a > code,
-li > code,
-figcaption > code,
-td > code {
+p>code,
+a>code,
+li>code,
+figcaption>code,
+td>code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: $type-size-6;
@@ -145,9 +165,11 @@ td > code {
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
-  &:before, &:after {
+  &:before,
+  &:after {
     letter-spacing: -0.2em;
-    content: "\00a0"; /* non-breaking space*/
+    content: "\00a0";
+    /* non-breaking space*/
   }
 }
 
@@ -182,9 +204,9 @@ figure {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   -webkit-box-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: 2em 0;
 
@@ -201,13 +223,14 @@ figure {
     transition: $global-transition;
   }
 
-  > a {
+  >a {
     display: block;
   }
 
   &.half {
-    > a,
-    > img {
+
+    >a,
+    >img {
       @include breakpoint($small) {
         width: calc(50% - 0.5em);
       }
@@ -219,8 +242,9 @@ figure {
   }
 
   &.third {
-    > a,
-    > img {
+
+    >a,
+    >img {
       @include breakpoint($small) {
         width: calc(33.3333% - 0.5em);
       }
@@ -309,7 +333,197 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
+b,
+i,
+strong,
+em,
+blockquote,
+p,
+q,
+span,
+figure,
+img,
+h1,
+h2,
+header,
+input,
+a,
+tr,
+td,
+form button,
+input[type="submit"],
+.btn,
+.highlight,
+.archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+// CSS added from here for about.md
+
+.about-page-aboutme {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 40px;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: left;
+  color: #333;
+  overflow: hidden;
+  /* Hide overflow for pseudo-element animations */
+  position: relative;
+  /* Needed for pseudo-elements positioning */
+  transition: box-shadow 0.3s ease;
+  /* Smooth transition for shadow */
+}
+
+.about-page-aboutme::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+}
+
+.about-page-aboutme:hover::before {
+  top: -25%;
+  left: -25%;
+  width: 150%;
+  height: 150%;
+}
+
+.about-page-aboutme:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  /* Enhanced shadow on hover */
+}
+
+.about-page-aboutme p {
+  margin-bottom: 1.5em;
+  color: #555;
+}
+
+.about-page-aboutme a {
+  color: #0066cc;
+  text-decoration: none;
+  position: relative;
+  /* Needed for pseudo-elements */
+}
+
+.about-page-aboutme a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #0066cc;
+  transition: width 0.3s ease;
+  transform: translateY(0px);
+}
+
+.about-page-aboutme a:hover::after {
+  width: 100%;
+}
+
+.about-page-aboutme a:hover {
+  color: #0044aa;
+  /* Slightly darker color on hover for contrast */
+}
+
+@media (max-width: 768px) {
+  .about-page-aboutme {
+    padding: 30px;
+    max-width: 95%;
+  }
+}
+
+
+.about-page-background {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #333;
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  will-change: transform;
+  /* Optimizes animations */
+}
+
+.about-page-background:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.about-page-background h1,
+h2,
+h3 {
+  color: #2c3e50;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.about-page-background h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #3498db;
+  /* Colored underline */
+}
+
+.about-page-background h2 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.about-page-background h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about-page-background ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 20px;
+}
+
+.about-page-background li:before {
+  content: '•';
+  color: #3498db;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.about-page-background a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.about-page-background a:hover {
+  text-decoration: underline;
+  color: #8ccbf6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-page-background {
+    margin: 20px;
+    padding: 20px;
+    max-width: 90%;
+  }
 }

@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Website"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Jason Jin"
+description              : &description "Student at Columbia University"
 url                      : "https://hyungjoonjin.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JasonHJJin/cv"
@@ -22,33 +22,33 @@ repository               : "JasonHJJin/cv"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "Jason Jin"
+  pronouns         : "Full stack engineering | Data science & ML | Founder @ Xeward, NYC"
+  bio              : "M.S. in Applied Analytics and B.S. in Computer Engineering @ Columbia University"
+  location         : "New York, New York, USA"
+  employer         : "Columbia University"
+  uri              : "hyungjoonjin.com"
+  email            : "jason.jin@columbia.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  googlescholar    : 
+  impactstory      : "https://nyweekly.com/tech/surgg-real-time-video-coverage-of-trending-google-searches-bringing-you-breaking-news-before-it-hits-the-headlines/"
+  orcid            : 
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
+  github           : "JasonHJJin"
+  kaggle           : "hyungjoonjin"  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : 
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "jinjasonhj"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -281,7 +281,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
