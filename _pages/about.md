@@ -16,7 +16,7 @@ redirect_from:
   language-code="en"
   max-query-length="-1">
   <df-messenger-chat-bubble
-   chat-title="Jason">
+   chat-title="Jason's AI Assistant">
   </df-messenger-chat-bubble>
 </df-messenger>
 <style>
