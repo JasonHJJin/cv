@@ -98,4 +98,22 @@ $(document).ready(function () {
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+
+  // Initialize and trigger Dialogflow Messenger after all layout adjustments
+  var dfMessengerInit = function () {
+    var dfMessenger = document.querySelector('df-messenger');
+    if (dfMessenger) {
+      // Wait for the chat widget to load fully
+      dfMessenger.addEventListener('df-messenger-loaded', function () {
+        // Add a delay to ensure all layout scripts have settled
+        setTimeout(function () {
+          dfMessenger.renderCustomText('Hello');
+        }, 1000); // Adjust time as needed based on your site's performance
+      });
+    }
+  };
+
+  // Call Dialogflow Messenger initialization
+  dfMessengerInit();
+
 });
