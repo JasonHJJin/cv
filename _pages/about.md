@@ -21,13 +21,32 @@ redirect_from:
 </df-messenger>
 <style>
   df-messenger {
-    z-index: 999;
+    z-index: 9999;
     position: fixed;
-    --df-messenger-font-color: #333333;
-    --df-messenger-font-family: Roboto;
-    --df-messenger-chat-background: #F5F5F5;
-    --df-messenger-message-user-background: #C7D2FE;
-    --df-messenger-message-bot-background: #FFFFFF;
+    --df-messenger-chat-bubble-icon-size: 48px;
+    --df-messenger-chat-bubble-background: #1a1a1a;
+    --df-messenger-chat-bubble-icon-color: #ffffff;
+    --df-messenger-titlebar-background: #1e1e1e;
+    --df-messenger-titlebar-font-color: #ffffff;
+    --df-messenger-font-family: "Segoe UI", Arial, sans-serif;
+    --df-messenger-chat-background: #2b2b2b;
+    --df-messenger-message-user-background: #6c63ff;
+    --df-messenger-message-bot-background: #3c3c3c;
+    --df-messenger-message-bot-font-color: #ffffff;
+    --df-messenger-input-background: #1e1e1e;
+    --df-messenger-send-icon-color: #6c63ff;
+    --df-messenger-send-icon-color-active: #ffffff;
+    --df-messenger-chat-window-height: 50vh;
+    --df-messenger-font-size: 16px;
+    --df-messenger-line-height: 1.4;
+    --df-messenger-button-border-radius: 24px;
+    --df-messenger-input-border-radius: 24px;
+    --df-messenger-font-weight-normal: 400;
+    --df-messenger-font-weight-bold: 600;
+    --df-messenger-button-hover-background: #4b4b4b;
+    --df-messenger-button-text-color: #ffffff;
+    --df-messenger-close-button-size: 32px;
+    --df-messenger-close-button-color: #ffffff;
     bottom: 16px;
     right: 16px;
   }
