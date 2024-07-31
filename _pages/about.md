@@ -56,7 +56,7 @@ redirect_from:
 
 <div class="about-page-aboutme">
   <p>Welcome to my homepage!</p>
-  <p>Hi, I'm Jason! I live in New York City and have been in the US since 8th grade. I graduated with a degree in Computer Engineering from Columbia University and am currently working towards my Master's in Applied Analytics.</p>
+  <p>I'm Jason! I live in New York City and have been in the US since 8th grade. I graduated with a degree in Computer Engineering from Columbia University and am currently working towards my Master's in Applied Analytics.</p>
   
   <p>I've always been passionate about startups - from ideation and development to execution and the excitement of driving change. During my entrepreneurial phase, founding Xeward was a privilege that allowed me to work on projects aligned with my interests. One notable venture was <a href="https://www.surgg.io">Surgg</a>, a real-time entertainment news app. This role not only honed my skills as a developer and product manager but also led to discussions with renowned investors such as 500 Global, Sequoia (Peak XV), and Entrepreneur First. The project garnered attention from <a href="https://nyweekly.com/tech/surgg-real-time-video-coverage-of-trending-google-searches-bringing-you-breaking-news-before-it-hits-the-headlines/">New York Weekly</a>.</p>
   

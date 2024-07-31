@@ -406,8 +406,17 @@ input[type="submit"],
 
 .about-page-aboutme p {
   margin-bottom: 1.5em;
-  color: #555;
+  color: #333333;
+  line-height: 1.8;
+  font-weight: 400;
+  letter-spacing: 0.015em;
+  text-align: justify;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  word-spacing: 0.05em;
 }
+
 
 .about-page-aboutme a {
   color: #0066cc;
