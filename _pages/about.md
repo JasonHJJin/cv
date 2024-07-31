@@ -52,8 +52,6 @@ redirect_from:
   }
 </style>
 
-<!-- <div class="animated_button_style">Tired of reading? Just ask!</div> -->
-
 <div class="about-page-aboutme">
   <p>Welcome to my homepage!</p>
   <p>I'm Jason! I graduated with a degree in Computer Engineering from Columbia University and am currently working towards my Master's in Applied Analytics.</p>
@@ -61,5 +59,6 @@ redirect_from:
   <p>I've always been passionate about startups - from ideation and development to execution and the excitement of driving change. During my entrepreneurial phase, founding Xeward was a privilege that allowed me to work on projects aligned with my interests. One notable venture was <a href="https://nyweekly.com/tech/surgg-real-time-video-coverage-of-trending-google-searches-bringing-you-breaking-news-before-it-hits-the-headlines/">Surgg</a>, a real-time entertainment news app. This role not only honed my skills as a developer and product manager but also led to discussions with renowned investors such as 500 Global, Sequoia (Peak XV), and Entrepreneur First.
   
   <p>I have also contributed to projects like <a href="https://www.youtube.com/channel/UCrwDNr9MO9hzhXWuMcaj1jA" target="_blank">MuseMate</a>, an AI-powered docent for museums, and <a href="https://apkpure.com/%EB%91%A5%EC%8A%A4%ED%84%B0-%E2%80%93-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%B0%98%EB%A0%A4%EA%B2%AC-%EC%82%B0%EC%B1%85-%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%84%A4-%EC%86%8C%EC%85%9C%EC%9D%98-%EC%8B%9C%EC%9E%91/com.xeward.doongster" target="_blank">Doongster</a>, a dog walking app. Eager to continue exploring data and building innovative web/mobile applications, I am always learning and improving.</p>
-</div>
+
+<!-- </div> -->
 
