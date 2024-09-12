@@ -53,8 +53,8 @@ redirect_from:
 </style>
 
 <div class="about-page-aboutme">
-  <p>I'm Jason! I graduated with a degree in Computer Engineering from Columbia University and am currently working towards my Master's in Applied Analytics.</p>
-  
+  <p>I'm Jason! I graduated with a degree in Computer Engineering from Columbia University and am currently working as a data scientist at the United Nations.
+
   <p>During my entrepreneurial phase, founding Xeward was a privilege that allowed me to work on projects aligned with my interests. One notable venture was <a href="https://nyweekly.com/tech/surgg-real-time-video-coverage-of-trending-google-searches-bringing-you-breaking-news-before-it-hits-the-headlines/">Surgg</a>, a real-time entertainment news app. This role not only honed my skills as a developer and product manager but also led to discussions with renowned investors such as 500 Global, Sequoia (Peak XV), and Entrepreneur First.
   
   <p>Eager to continue exploring data and building innovative web/mobile applications, I am always learning and improving.</p>
