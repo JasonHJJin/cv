@@ -21,7 +21,7 @@ repository               : "JasonHJJin/cv"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : 
+  avatar           : "/profile.png"
   name             : "Jason Jin"
   pronouns         : "Software engineering | Data science & ML | Founder (On Hiatus) @ Xeward, NYC"
   bio              : "Computer Engineering @ Columbia University"
