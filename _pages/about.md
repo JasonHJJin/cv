@@ -53,8 +53,6 @@ redirect_from:
 </style> -->
 
 <div class="about-page-aboutme">
-  <p>I'm Jason! I graduated with a degree in Computer Engineering from Columbia University and am currently working as a data scientist intern at the United Nations.
-  
   <p>Eager to continue exploring data and building innovative web/mobile applications, I am always learning and improving.</p>
 
 <!-- </div> -->
