@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Resume/CV"
-    url: /files/resume.pdf
+  # - title: "Resume/CV"
+  #   url: /files/resume.pdf
 
   # - title: "Publications"
   #   url: /publications/
@@ -12,8 +12,8 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
